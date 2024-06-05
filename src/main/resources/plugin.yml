@@ -1,0 +1,16 @@
+name: "NewProfile"
+version: ${version}
+main: kr.doka.lab.newprofile.NewProfilePlugin
+api-version: "1.20"
+depend:
+  - Vault
+authors:
+  - DOKA1203
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.9.23
+  - org.xerial:sqlite-jdbc:3.46.0.0
+
+commands:
+  프로필:
+    description: "This is a command"
+    usage: "/프로필 <arg>"
